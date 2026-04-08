@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "Ferry";
+	src: url(../fonts/Ferry.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "Inter";
+	src: local("Inter") url(../fonts/Inter.ttf) format("truetype");
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Inter";
+	src: local("Inter") url(../fonts/Inter-Italic.ttf) format("truetype");
+	font-style: italic;
+}
+
+:root {
+	--color-green: #029491;
+	--color-black: #000000;
+	--color-white: #FFFFFF;
+
+	--color-yellow: #FFB64F;
+	--color-aqua: #7CE3E1;
+	--color-blue: #5970FF;
+}
