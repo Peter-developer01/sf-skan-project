@@ -1,0 +1,10 @@
+.header {
+	height: 100px;
+}
+
+.header-container {
+	composes: container from "../styles/Container.module.css";
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

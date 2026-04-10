@@ -1,0 +1,17 @@
+.navbar {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: var(--color-black) !important;
+	font-size: 14px;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}

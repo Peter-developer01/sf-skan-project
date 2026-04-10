@@ -24,3 +24,11 @@
 	--color-aqua: #7CE3E1;
 	--color-blue: #5970FF;
 }
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	background-color: var(--color-white);
+}
