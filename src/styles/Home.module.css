@@ -1,0 +1,29 @@
+.hero-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-title {
+	font-family: Ferry;
+	font-size: 60px;
+	width: 743px;
+	margin: 0;
+}
+
+.hero-description {
+	font-size: 20px;
+	margin: 20px 0 0 0;
+}
+
+.hero-request-link {
+	display: inline-block;
+	color: var(--color-white);
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 500;
+	background-color: var(--color-blue);
+	border-radius: 5px;
+	margin-top: 84px;
+	padding: 14px 64px 18px 64px;
+}
