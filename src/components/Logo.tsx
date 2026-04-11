@@ -1,6 +1,6 @@
 import type React from "react";
-import logoGreen from "../images/logo-green.png";
-import logoWhite from "../images/logo-white.png";
+import logoGreen from "../assets/images/logo-green.png";
+import logoWhite from "../assets/images/logo-white.png";
 
 type LogoTheme = "green" | "white";
 export default function Logo({

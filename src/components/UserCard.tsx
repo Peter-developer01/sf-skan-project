@@ -1,5 +1,5 @@
 import styles from "../styles/UserCard.module.css";
-import mockAvatar from "../images/mock-avatar.png";
+import mockAvatar from "../assets/images/mock-avatar.png";
 import classNames from "classnames";
 export default function UserCard() {
 	return (
