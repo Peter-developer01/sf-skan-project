@@ -29,6 +29,14 @@
 	color: var(--color-black);
 }
 
+.user-card-link:hover {
+	opacity: 1;
+}
+
+.user-card-link:active {
+	text-decoration: underline;
+}
+
 .user-card-avatar {
 	height: 32px;
 	width: 32px;

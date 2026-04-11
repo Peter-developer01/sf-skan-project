@@ -8,10 +8,14 @@
 
 .nav-link {
 	text-decoration: none;
-	color: var(--color-black) !important;
+	color: var(--color-black);
 	font-size: 14px;
 }
 
 .nav-link:hover {
 	text-decoration: underline;
+}
+
+.nav-link:active {
+	filter: opacity(0.5);
 }
