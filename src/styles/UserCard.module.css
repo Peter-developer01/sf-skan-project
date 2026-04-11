@@ -1,0 +1,35 @@
+.user-card {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	width: fit-content;
+}
+
+.user-card-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 3px;
+}
+
+.user-card-info-item {
+	flex-grow: 0;
+	flex-shrink: 1;
+}
+
+.user-card-name {
+	font-size: 14px;
+}
+
+.user-card-link {
+	font-size: 10px;
+	opacity: 0.4;
+	text-decoration: none;
+	color: var(--color-black);
+}
+
+.user-card-avatar {
+	height: 32px;
+	width: 32px;
+}

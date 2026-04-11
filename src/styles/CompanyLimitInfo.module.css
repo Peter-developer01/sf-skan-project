@@ -1,0 +1,37 @@
+.limit-info {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	justify-content: center;
+	align-items: flex-end;
+	height: 63px;
+	background-color: #F4F4F4;
+	border-radius: 5px;
+}
+
+.limit-info-item {
+	display: flex;
+	gap: 9px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.limit-info-text {
+	font-size: 10px;
+	opacity: 0.4;
+}
+
+.limit-info-number {
+	font-size: 14px;
+	font-weight: 700;
+	min-width: 30px;
+}
+
+.limit-info-number-green {
+	composes: limit-info-number;
+	color: #8AC540;
+}

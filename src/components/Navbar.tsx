@@ -1,9 +1,10 @@
 import styles from "../styles/Navbar.module.css";
+import classNames from "classnames";
 
-export default function Navbar() {
+export default function Navbar({ className }: { className?: string }) {
 	return (
-		<nav>
-			<ul className={styles.navbar}>
+		<nav className={classNames(styles.navbar, className)}>
+			<ul className={styles.navbarList}>
 				<li>
 					<a className={styles.navLink} href="/">
 						Главная

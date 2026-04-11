@@ -4,7 +4,20 @@
 
 .header-container {
 	composes: container from "../styles/Container.module.css";
-	display: flex;
+	display: grid;
 	justify-content: space-between;
 	align-items: center;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.logo {
+	justify-self: flex-start;
+}
+
+.navbar {
+	justify-self: center;
+}
+
+.header-user-area {
+	justify-self: flex-end;
 }
