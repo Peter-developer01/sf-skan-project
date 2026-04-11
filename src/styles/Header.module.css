@@ -3,7 +3,6 @@
 }
 
 .header-container {
-	composes: container from "../styles/Container.module.css";
 	display: grid;
 	justify-content: space-between;
 	align-items: center;
