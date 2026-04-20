@@ -5,7 +5,7 @@
 }
 
 .hero-title {
-	font-family: Ferry;
+	composes: title from "global.css";
 	font-size: 60px;
 	width: 743px;
 	margin: 0;
@@ -33,7 +33,7 @@
 }
 
 .why-us-title {
-	font-family: Ferry;
+	composes: title from "global.css";
 	font-size: 45px;
 	margin: 0;
 }
